@@ -37,3 +37,5 @@ Route::get('/shop/{product}', 'ShopController@show')->name('shop.show');
 Route::get('/cart',function(){
     return view('cart.cart');
 });
+Route::get('/tampil', 'ProductController@index')->name('tampil.index');
+
