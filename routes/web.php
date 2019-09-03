@@ -24,3 +24,6 @@ Route::get('/', 'HomeController@index')->name('index');
 Route::get('/shop', 'ShopController@index')->name('shop.index');
 Route::get('/shop/{product}', 'ShopController@show')->name('shop.show');
 
+Route::get('/cart',function(){
+    return view('cart.cart');
+});
