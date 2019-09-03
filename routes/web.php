@@ -14,6 +14,16 @@
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/signin', function () {
+    return view('user.signin');
+});
+Route::get('/loginn', function () {
+    return view('login.loginn');
+});
+Route::get('/signup', function () {
+    return view('user.signup');
+});
+
 
 Route::get('/checkout', function () {
     return view('checkout');

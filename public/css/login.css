@@ -15,7 +15,7 @@ body{
   
 }
 .box{
-  background: black;
+  background:#d7faf5;
   width: 300px;
   padding: 40px;
   margin: 80px auto;
@@ -25,7 +25,7 @@ body{
 
 }
 .box h1{
-  color: white;
+  color:black;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -39,7 +39,7 @@ body{
   padding: 14px 10px;
   width: 150px;
   outline: none;
-  color: white;
+  color:black;
   border-radius: 24px;
   transition: 0.25s;
 }
