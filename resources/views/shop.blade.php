@@ -27,7 +27,7 @@
                         <!-- ##### Single Widget ##### -->
                         <div class="widget catagory mb-50">
                             <!-- Widget Title -->
-                            <h6 class="widget-title mb-30">Kategori</h6>
+                            <h6 class="widget-title mb-30">Kategori 1</h6>
 
                             <!--  Catagories  -->
                             <div class="catagories-menu">
