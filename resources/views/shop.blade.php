@@ -9,7 +9,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="page-title text-center">
-                        <h2>katalog Kampret</h2>
+                        <h2>katalog produk</h2>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                         <!-- ##### Single Widget ##### -->
                         <div class="widget catagory mb-50">
                             <!-- Widget Title -->
-                            <h6 class="widget-title mb-30">Kategori 1</h6>
+                            <h6 class="widget-title mb-30">Kategori</h6>
 
                             <!--  Catagories  -->
                             <div class="catagories-menu">
