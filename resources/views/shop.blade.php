@@ -9,7 +9,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="page-title text-center">
-                        <h2>katalog Kampret</h2>
+                        <h2>katalog</h2>
                     </div>
                 </div>
             </div>
