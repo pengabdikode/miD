@@ -229,7 +229,7 @@ img {
   color: #ffffff;
   border: none;
   border-radius: 0;
-  padding: 0 40px;
+  padding: 0 20px;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 50px;
@@ -1735,18 +1735,18 @@ img {
       font-size: 12px;
       font-weight: 600;
       margin-bottom: 10px; }
-      .contact-area .contact-info .contact-address p span {
+    .contact-area .contact-info .contact-address p span {
         font-weight: 600;
         color: #000000;
         width: 100px;
         display: inline-block;
         text-transform: uppercase; }
-      .contact-area .contact-info .contact-address p:last-child {
+    .contact-area .contact-info .contact-address p:last-child {
         margin-top: 100px; }
-        .contact-area .contact-info .contact-address p:last-child a {
+    .contact-area .contact-info .contact-address p:last-child a {
           font-size: 14px;
           font-weight: 300; }
-          .contact-area .contact-info .contact-address p:last-child a:hover {
+    .contact-area .contact-info .contact-address p:last-child a:hover {
             color: #0315ff; }
 
 /* ##### The End ##### */

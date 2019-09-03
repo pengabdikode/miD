@@ -67,7 +67,7 @@
                                 <div class="hover-content">
                                     <!-- Add to Cart -->
                                     <div class="add-to-cart-btn">
-                                        <a href="#" class="btn essence-btn">Tambah Keranjang</a>
+                                        <a href="#" class="btn essence-btn">Tambah Ke Keranjang</a>
                                     </div>
                                 </div>
                             </div>
