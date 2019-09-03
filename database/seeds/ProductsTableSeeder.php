@@ -24,8 +24,8 @@ class ProductsTableSeeder extends Seeder
 
         ])->categories()->attach(1);
 
-        $product = Product::find(1);
-        $product->categories()->attach(2);
+        // $product = Product::find(1);
+        // $product->categories()->attach(2);
 
         Product::create([
             'name' => 'Xiaomi Redmi Note',
