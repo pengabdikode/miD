@@ -18,10 +18,12 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
+                                <th>Id</th>
                                 <th>Name</th>
                                 <th>Slug</th>
                                 <th>Details</th>
                                 <th>Price</th>
+                                <th>Category</th>
                                 <th>Description</th>
                                 <th>Foto 1</th>
                                 <th>Foto 2</th>
@@ -31,10 +33,14 @@
                         <tbody>
                             @foreach($products as $product)
                             <tr>
+                                <td>{{$product->id}}</td>
                                 <td>{{$product->name}}</td>
                                 <td>{{$product->slug}}</td>
                                 <td>{{$product->details}}</td>
                                 <td>@currency($product->price)</td>
+                                <td>
+                                    
+                                </td>
                                 <td>{{$product->description}}</td>
                                 <td>
                                     <img src="{{asset('storage/product'.$product->foto1)}}" width="60" height="100">
