@@ -15,6 +15,8 @@
     <link rel="icon" href="{{ URL::to('img/core-img/favicon.ico')}}">
 
     <!-- Core Style CSS -->
+    
+    <link rel="stylesheet" href="{{ URL::to('login.css') }}">
     <link rel="stylesheet" href="{{ URL::to('css/core-style.css') }}">
     <link rel="stylesheet" href="{{ URL::to('style.css') }}">
 
