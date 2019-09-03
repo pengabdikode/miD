@@ -3,7 +3,7 @@
         <h1>Sign Up</h1>
         <form action="" method="post">
             <div class="form-group">
-                <label for="name">Nammaa in aja </label>
+                <label for="name">Nammaa aku aja </label>
                 <input type="text" id="name" name="name">
             </div>
             <div class="form-group">
