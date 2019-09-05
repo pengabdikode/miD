@@ -54,7 +54,7 @@
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="{{URL::to('img/core-img/bag.svg')}}" alt=""> <span>3</span></a>
+                    <a href="{{route('cart.index')}}" id="essenceCartBtn"><img src="{{URL::to('img/core-img/bag.svg')}}" alt=""> <span>3</span></a>
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">

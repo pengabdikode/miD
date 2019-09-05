@@ -109,10 +109,10 @@
                                 <div class="single-product-wrapper">
                                     <!-- Product Image -->
                                     <div class="product-img">
-                                        <img src="{{asset('storage/product/'.$product->foto1)}}" alt="">
+                                        <img src="{{asset('storage/'.$product->foto1)}}" alt="">
                                         <!-- Hover Thumb -->
                                         <a href="{{route('shop.show',$product->slug)}}">
-                                        <img class="hover-img" src="{{asset('storage/product/'.$product->foto2)}}" alt="">
+                                        <img class="hover-img" src="{{asset('storage/'.$product->foto2)}}" alt="">
                                         </a>
                                         <!-- Product Badge -->
                                         <div class="product-badge offer-badge">

@@ -26,3 +26,10 @@ Route::get('/shop/{product}', 'ShopController@show')->name('shop.show');
 
 Route::get('/tampil', 'ProductController@index')->name('tampil.index');
 
+Route::get('/cart', 'CartController@index')->name('cart.index');
+
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

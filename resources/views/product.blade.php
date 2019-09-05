@@ -9,9 +9,9 @@
         <!-- Single Product Thumb -->
         <div class="single_product_thumb clearfix">
             <div class="product_thumbnail_slides owl-carousel">
-                <img src="{{asset('storage/product/'.$product->foto1)}}" alt="">
-                <img src="{{asset('storage/product/'.$product->foto2)}}" alt="">
-                <img src="{{asset('storage/product/'.$product->foto3)}}" alt="">
+                <img src="{{asset('storage/'.$product->foto1)}}" alt="">
+                <img src="{{asset('storage/'.$product->foto2)}}" alt="">
+                <img src="{{asset('storage/'.$product->foto3)}}" alt="">
             </div>
         </div>
 
@@ -21,7 +21,7 @@
                 <h2>{{ $product->name }}</h2>
             </a>
             <p class="product-price"><span class="old-price">@currency($product->price)</span>@currency($product->price)</p>
-            <p class="product-desc">{{ $product->description }}</p>
+            <p class="product-desc">{!! $product->description !!}</p>
 
             <!-- Form -->
             <form class="cart-form clearfix" method="post">
